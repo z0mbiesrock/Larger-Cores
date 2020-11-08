@@ -1,5 +1,7 @@
 type: CoreBlock
-
+name: "Core: Network"
+description: Core of the base. Absurdly well armored. Stores vast amounts of resources.
+details: Prototype fifth iteration. 
 size: 7
 health: 22600
 itemCapacity: 24000

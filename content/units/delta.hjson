@@ -1,4 +1,6 @@
 type: BuilderMinerUnit
+name: Delta
+description: Defends the Nexus core from enemies. Builds structures.
 speed: 3.8
 accel: 0.125
 drag: 0.0625
@@ -23,8 +25,10 @@ weapons: [
         y: 2
         top: false
         rotate: false
-        shots: 4
-        inaccuracy: 6
+        shots: 5
+        inaccuracy: 5
+		velocityRnd: 0.25
+		shootY: 3
         ejectEffect: casing2
 		shootSound: shootBig
         bullet: {
@@ -41,10 +45,10 @@ weapons: [
         }
     },
     {
-        name: small-weapon
+        name: small-weapon-core
         reload: 20
-        x: 7
-        y: -4
+        x: 3
+        y: -3
         top: false
         rotate: true
         rotateSpeed: 18
@@ -63,10 +67,10 @@ weapons: [
         }
     },
     {
-        name: small-weapon
+        name: small-weapon-core
         reload: 20.1
-        x: -6
-        y: -6
+        x: -5
+        y: -2
         top: false
         rotate: true
         rotateSpeed: 18

@@ -1,5 +1,7 @@
 type: CoreBlock
-
+name: "Core: Nexus"
+description: Core of the base. Incredibly well armored. Stores humongous amounts of resources.
+details: Experimental fourth iteration. Origin of data unknown.
 size: 6
 health: 8600
 itemCapacity: 18000
