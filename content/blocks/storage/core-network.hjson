@@ -1,0 +1,23 @@
+type: CoreBlock
+
+size: 7
+health: 22600
+itemCapacity: 24000
+
+requirements: [
+    copper/22000
+    lead/22000
+    metaglass/10000
+    graphite/10000
+    titanium/22000
+    plastanium/10000
+    silicon/22000
+    thorium/22000
+    phase-fabric/10000
+    surge-alloy/22000
+]
+category: effect
+research: core-nexus
+
+unitType: epsilon
+unitCapModifier: 32

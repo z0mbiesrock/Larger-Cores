@@ -1,0 +1,19 @@
+type: CoreBlock
+
+size: 6
+health: 8600
+itemCapacity: 18000
+
+requirements: [
+    copper/12500
+    lead/12500
+    titanium/12500
+    silicon/12500
+    thorium/12500
+    phase-fabric/6250
+]
+category: effect
+research: core-nucleus
+
+unitType: delta
+unitCapModifier: 26

@@ -1,0 +1,91 @@
+type: BuilderMinerUnit
+speed: 4.05
+accel: 0.125
+drag: 0.0625
+mineSpeed: 10
+mineTier: 4
+health: 410
+itemCapacity: 110
+rotateSpeed: 5.75
+hitSize: 18
+isCounted: false
+armor: 3
+buildSpeed: 1.5
+rotateShooting: true
+commandLimit: 12
+engineOffset: 13
+flying: true
+weapons: [
+    {
+        name: missiles-core
+        reload: 40
+        x: 7
+        y: 2
+        top: false
+        rotate: true
+        shots: 1
+        inaccuracy: 2
+        ejectEffect: none
+		shootSound: missile
+		recoil: 5
+        rotateSpeed: 8
+        bullet: {
+            type: MissileBulletType
+            damage: 20
+			homingPower: 0.19
+			weaveMag: 7
+			weaveScale: 9
+            speed: 5.5
+			drag: 0.02
+            width: 8
+            height: 14
+			frontColor: fff8e8
+			backColor: f9c27a
+			trailColor: ffb855
+			hitEffect: blastExplosion
+			despawnEffect: blastExplosion
+			shootEffect: shootBig
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.1
+            lifetime: 70
+			status: blasted
+			statusDuration: 40
+        }
+    },
+    {
+        name: missiles-core
+        reload: 40
+        x: -7
+        y: -2
+        top: false
+        rotate: true
+        shots: 1
+        inaccuracy: 2
+        ejectEffect: none
+		shootSound: missile
+		recoil: 5
+        rotateSpeed: 8
+        bullet: {
+            type: MissileBulletType
+            damage: 20
+			homingPower: 0.19
+			weaveMag: 7
+			weaveScale: 9
+            speed: 5.5
+			drag: 0.02
+            width: 8
+            height: 14
+			frontColor: fff8e8
+			backColor: f9c27a
+			trailColor: ffb855
+			hitEffect: blastExplosion
+			despawnEffect: blastExplosion
+			shootEffect: shootBig
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.1
+            lifetime: 70
+			status: blasted
+			statusDuration: 40
+        }
+    }
+]

@@ -1,0 +1,87 @@
+type: BuilderMinerUnit
+speed: 3.8
+accel: 0.125
+drag: 0.0625
+mineSpeed: 9
+mineTier: 3
+health: 300
+itemCapacity: 90
+rotateSpeed: 21
+hitSize: 13
+isCounted: false
+armor: 1
+buildSpeed: 1.25
+rotateShooting: true
+commandLimit: 8
+engineOffset: 8.5
+flying: true
+weapons: [
+    {
+        name: flakgun-core
+        reload: 38
+        x: 5
+        y: 2
+        top: false
+        rotate: false
+        shots: 4
+        inaccuracy: 6
+        ejectEffect: casing2
+		shootSound: shootBig
+        bullet: {
+            type: BasicBulletType
+            damage: 12
+            speed: 5.5
+            width: 8
+            height: 14
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.07
+            lifetime: 40
+            sprite: bullet
+        }
+    },
+    {
+        name: small-weapon
+        reload: 20
+        x: 7
+        y: -4
+        top: false
+        rotate: true
+        rotateSpeed: 18
+        shots: 1
+        inaccuracy: 1
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 8
+            speed: 8
+            width: 4
+            height: 9
+			tileDamageMultiplier: 0.03
+            lifetime: 20
+            sprite: bullet
+        }
+    },
+    {
+        name: small-weapon
+        reload: 20.1
+        x: -6
+        y: -6
+        top: false
+        rotate: true
+        rotateSpeed: 18
+        shots: 1
+        inaccuracy: 1
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 8
+            speed: 8
+            width: 4
+            height: 9
+			tileDamageMultiplier: 0.03
+            lifetime: 20
+            sprite: bullet
+        }
+    }
+]

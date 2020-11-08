@@ -1,0 +1,6 @@
+name: "larger-cores"
+displayName: "Larger Cores" //what displays in the mod selection menu
+author: "z0mbiesrock"
+description: "Adds T4 and T5 Cores."
+version: "1.0"
+minGameVersion: "112"
