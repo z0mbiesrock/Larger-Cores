@@ -1,4 +1,4 @@
-type: BuilderMinerUnit
+type: flying
 name: Delta
 description: Defends the Nexus core from enemies. Builds structures.
 speed: 3.8

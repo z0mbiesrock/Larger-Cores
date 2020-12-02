@@ -1,4 +1,4 @@
-type: BuilderMinerUnit
+type: flying
 name: Epsilon
 description: Defends the Network core from enemies. Builds structures.
 speed: 4.05
