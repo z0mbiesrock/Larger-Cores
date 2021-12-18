@@ -12,7 +12,7 @@ rotateSpeed: 21
 hitSize: 13
 isCounted: false
 armor: 1
-buildSpeed: 1.25
+buildSpeed: 1.75
 rotateShooting: true
 commandLimit: 8
 engineOffset: 8.5
@@ -57,7 +57,7 @@ weapons: [
         ejectEffect: casing1
         bullet: {
             type: BasicBulletType
-            damage: 8
+            damage: 20
             speed: 8
             width: 4
             height: 9
