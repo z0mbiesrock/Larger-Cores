@@ -1,6 +1,6 @@
 type: flying
 name: Epsilon
-description: Defends the Network core from enemies. Builds structures.
+description: Defends the Network core from enemies. Builds structures. Advanced building speed.
 speed: 4.05
 accel: 0.125
 drag: 0.0625
@@ -12,7 +12,7 @@ rotateSpeed: 2.375
 hitSize: 18
 isCounted: false
 armor: 3
-buildSpeed: 1.5
+buildSpeed: 2.5
 rotateShooting: true
 commandLimit: 12
 engineOffset: 8
