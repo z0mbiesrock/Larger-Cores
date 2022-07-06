@@ -7,16 +7,16 @@ health: 22600
 itemCapacity: 24000
 
 requirements: [
-    copper/22000
-    lead/22000
+    copper/18000
+    lead/18000
     metaglass/10000
     graphite/10000
-    titanium/22000
+    titanium/18000
     plastanium/10000
-    silicon/22000
-    thorium/22000
+    silicon/18000
+    thorium/18000
     phase-fabric/10000
-    surge-alloy/22000
+    surge-alloy/18000
 ]
 category: effect
 research: core-nexus
